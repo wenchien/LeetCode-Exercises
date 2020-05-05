@@ -30,7 +30,7 @@ void rotate(vector<int> &nums, int k)
     //printV(nums);
     int n = nums.size();
     // cout <<endl<<endl;
-    k = k % nums.size();
+    k = k % nums.size();//don't forget all rotate related question needs this!!!!!!
     cout << k << endl;
     
     for (int i = 0; i < n - k; i++)
